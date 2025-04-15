@@ -1,38 +1,33 @@
-Predicting Customer Churn in a Music Streaming Service
-Welcome to this churn prediction project! This repository explores how to predict whether a user will cancel their subscription to a music streaming platform, based on their interaction history and behavior.
+# Customer Churn Prediction and Analysis
+This project aims to analyze and predict customer churn using a combination of unsupervised clustering, advanced feature engineering, and machine learning models. It provides actionable insights for business retention strategies by identifying at-risk customer segments and evaluating model performance using ROC-AUC scores.
 
-Project Overview
-In the competitive world of music streaming, retaining users is critical. This project aims to identify users at risk of churning, i.e., those who are likely to cancel their subscription. With that insight, companies can take proactive steps to improve user engagement and retention.
+# Key Features
+Data Loading & Cleaning: Processes JSON event log data efficiently.
 
-We worked with a massive dataset (26M+ events) from a fictional music streaming service, and trained multiple machine learning models to classify users into churned vs active.
+Exploratory Data Analysis (EDA): Identifies trends, outliers, and churn behavior patterns.
 
- Dataset
-Size: ~26 million user interaction logs
+Feature Engineering: Extracts user behavior metrics such as session frequency, listening duration, song/artist diversity, and membership details.
 
-Users: 22,278 unique users
+Clustering Analysis: Segments users using Gaussian Mixture Models (GMM) for behavioral insights.
 
-Features: 18 total, including session behavior, location, browser agent, and more
+Modeling & Hyperparameter Tuning: Trains and tunes models including Logistic Regression, Random Forest, XGBoost, and LightGBM.
 
-Target: Binary label indicating whether a user churned (visited the cancellation confirmation page)
+Top Feature Selection: Identifies top predictive features to improve model efficiency.
 
- Key Steps
-1.  Data Cleaning & Preparation
-Handled large-scale event log data (12.5GB)
+Model Evaluation: Uses ROC-AUC to assess final model performance.
 
-Defined churn based on user actions
+Business Recommendations: Derives actionable recommendations based on churn risk per cluster and top features.
 
-Aggregated user-level features for modeling
+# Visualizations
+Class imbalance distribution
 
-2.  Exploratory Analysis
-Calculated churn rate: 22.46%
+Cluster characteristics and churn rates
 
-Identified behavioral patterns linked to churn
+Correlation heatmaps
 
-Performed user segmentation via Gaussian Mixture Models (GMM)
+ROC curves for model comparison
 
-3.  Modeling
-We trained and evaluated the following models:
-
+# Models Used
 Logistic Regression
 
 Random Forest
@@ -41,19 +36,11 @@ XGBoost
 
 LightGBM
 
-Metrics used:
+# Output
+Trained models and evaluation metrics
 
-Accuracy
+Cluster interpretation report
 
-Precision / Recall / F1
+Business recommendations based on churn drivers
 
-ROC AUC Score
-
- Best Model: LightGBM
-Metric	Score
-Accuracy	86%
-Precision	0.64
-Recall	0.80
-F1-Score	0.71
-ROC AUC	0.904 
-LightGBM achieved the best balance of performance and speed, and it's our recommended model for production deployment.
+Saved plots for inclusion in presentations or dashboards
