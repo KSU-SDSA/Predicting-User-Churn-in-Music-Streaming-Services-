@@ -1,0 +1,73 @@
+===== CLUSTER INTERPRETATIONS =====
+
+Cluster 0: Low Risk - Free users with Low activity, New, Focused taste
+Size: 2278.0 users
+Churn Rate: 19.58%
+Recommendations:
+  1. Maintain engagement with new features
+  2. Leverage these users for referrals
+
+Cluster 1: Low Risk - Free users with High activity, New, Diverse taste
+Size: 3707.0 users
+Churn Rate: 5.42%
+Recommendations:
+  1. Maintain engagement with new features
+  2. Leverage these users for referrals
+
+Cluster 2: Low Risk - Free users with High activity, New, Diverse taste
+Size: 2509.0 users
+Churn Rate: 18.57%
+Recommendations:
+  1. Maintain engagement with new features
+  2. Leverage these users for referrals
+
+Cluster 3: Low Risk - Free users with High activity, New, Focused taste
+Size: 2950.0 users
+Churn Rate: 9.29%
+Recommendations:
+  1. Maintain engagement with new features
+  2. Leverage these users for referrals
+
+Cluster 4: Low Risk - Free users with High activity, New, Focused taste
+Size: 1.0 users
+Churn Rate: 0.00%
+Recommendations:
+  1. Maintain engagement with new features
+  2. Leverage these users for referrals
+
+Cluster 5: Low Risk - Free users with High activity, New, Diverse taste
+Size: 786.0 users
+Churn Rate: 15.14%
+Recommendations:
+  1. Maintain engagement with new features
+  2. Leverage these users for referrals
+
+Cluster 6: Medium Risk - Free users with Low activity, New, Focused taste
+Size: 1048.0 users
+Churn Rate: 35.50%
+Recommendations:
+  1. Recommend new artists similar to their favorites
+  2. Highlight premium benefits
+
+Cluster 7: High Risk - Free users with Low activity, New, Diverse taste
+Size: 1815.0 users
+Churn Rate: 49.86%
+Recommendations:
+  1. Engage with targeted content recommendations
+  2. Send re-engagement emails with personalized playlists
+  3. Improve onboarding experience
+
+Cluster 8: Medium Risk - Free users with Low activity, New, Focused taste
+Size: 3590.0 users
+Churn Rate: 24.35%
+Recommendations:
+  1. Recommend new artists similar to their favorites
+  2. Highlight premium benefits
+
+Cluster 9: Medium Risk - Free users with Low activity, New, Diverse taste
+Size: 3594.0 users
+Churn Rate: 37.45%
+Recommendations:
+  1. Create personalized discovery playlists
+  2. Highlight premium benefits
+
